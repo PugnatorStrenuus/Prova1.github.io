@@ -5,6 +5,11 @@ h1, h2, h3 {
     color: red;
 }
 
+body {
+    background-image: url('./images/Marble.jpg');
+    background-size: cover;
+    background-position: center;
+}
 
 p {
     font-family: 'EB Garamond', serif;
