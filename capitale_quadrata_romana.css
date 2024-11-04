@@ -10,7 +10,7 @@ body {
     background-image: url('./images/Marble.jpg');
     background-size: cover;
     background-position: center;
-    cursor: url('./images/tcursor.png') 12 12, auto;
+    cursor: url('./images/tcursor.png'), auto;
 }
 
 p {
@@ -21,3 +21,6 @@ p {
     margin: 0;
     padding: 0;
 }
+
+a {
+    cursor: cursor: url('./images/tpointer_click.png'), auto;
