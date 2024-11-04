@@ -9,7 +9,7 @@ body {
     background-image: url('./images/Marble.jpg');
     background-size: cover;
     background-position: center;
-    cursor: url('./images/cursor')
+    cursor: url('./images/cursor'), auto;
 }
 
 p {
@@ -22,5 +22,5 @@ p {
 }
 
 a {
-    cursor: url('./images/pointer_click')
+    cursor: url('./images/pointer_click'), auto;
 }
