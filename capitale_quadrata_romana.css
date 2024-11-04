@@ -5,11 +5,14 @@ h1, h2, h3 {
     color: red;
 }
 
+html {
+    cursor: url('./images/cursor.png') 12 12, auto;
+}
+
 body {
     background-image: url('./images/Marble.jpg');
     background-size: cover;
     background-position: center;
-    cursor: url('./images/cursor.png') 32 32, auto;
 }
 
 p {
@@ -22,5 +25,5 @@ p {
 }
 
 a {
-    cursor: url('./images/pointer_click.png') 32 32, auto;
+    cursor: url('./images/pointer_click.png') 12 12, auto;
 }
