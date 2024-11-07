@@ -3,15 +3,10 @@ h1, h2, h3 {
     font-family: 'Cinzel', serif;
     font-weight: 1000;
     color: red;
-}
-
-
-body {
     background-image: url('./images/Marble.jpg');
-    background-size: cover;
-    background-position: center;
-    cursor: url('./images/tcursor.png'), auto;
 }
+
+
 
 p {
     font-family: 'EB Garamond', serif;
