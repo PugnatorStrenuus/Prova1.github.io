@@ -17,6 +17,25 @@ p {
     padding: 0;
 }
 
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: block;
+    min-height: 100vh;
+    position: relative;
+}
+
+footer {
+  padding: 20px;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
 a {
     cursor: url('./images/tpointer_click.png'), auto;
 }
