@@ -40,3 +40,10 @@ footer {
 a {
     cursor: url('./images/tpointer_click.png'), auto;
 }
+
+#map {
+  height: 500px; /* Altezza della mappa */
+  width: 100%;   /* Larghezza della mappa */
+  margin: 0 auto; /* Centrare la mappa */
+  border: 1px solid #ccc; /* Aggiunge un bordo sottile */
+}
