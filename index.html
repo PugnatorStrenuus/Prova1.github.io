@@ -17,15 +17,13 @@
 
           <div id="map"></div>
       <script>
-    // Crea una mappa centrata su Venezia con livello di zoom 13
+          
         const map = L.map('map').setView([45.434, 12.338], 13);
 
-    // Aggiungi una mappa OpenStreetMap
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
           attribution: '&copy; OpenStreetMap contributors'
         }).addTo(map);
 
-    // Aggiungi un marker su Venezia
         L.marker([45.434, 12.338]).addTo(map).bindPopup('Venezia');
       </script>
         <table>
