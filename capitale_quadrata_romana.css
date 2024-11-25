@@ -64,15 +64,89 @@ a {
     border: 10px solid #FFFFFF;
 }
 
-table {
-    width: 50%;
-    height: 50%;
-    border: 2px solid #000000;
+.container {
+    width: 90%;
+    margin: 20px auto;
+    border-radius: 8px;
+    overflow: hidden;
 }
 
-td {
-    text-align: center;
-    vertical-align: middle;
-    height: 100px;
+.section {
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
 }
 
+.section-one {
+    color: #FFFFFF;
+    background-color: #000000;
+}
+
+.section-two {
+    color: #000000;
+    background-color: #FFFFFF;
+}
+
+.section-three {
+    color: #FFFFFF;
+    background-color: #000000;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.text {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.table-section table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table-section th,
+.table-section td {
+    text-align: left;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.table-section th {
+    background-color: #f0f0f0;
+}
+
+.table-section tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Specifica colori del testo nella tabella */
+.section-one .table-section th,
+.section-one .table-section td {
+    color: #FFFFFF; /* Blu scuro per la prima sezione */
+}
+
+.section-two .table-section th,
+.section-two .table-section td {
+    color: #000000; /* Rosso scuro per la seconda sezione */
+}
