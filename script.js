@@ -17,3 +17,10 @@ L.marker([45.4375, 12.3401]).addTo(map)
     <br><img src="images/Faustus_Inscription.jpg" alt="Iscrizione di Lucius Statius Faustus" width="150">
   `)
   .openPopup();
+
+L.marker([45.4575, 12.3572]).addTo(map)
+  .bindPopup(`
+    <b>Lucius Acilius</b>
+    <br><img src="images/Acilius_Inscription.jpg" alt="Iscrizione di Lucius Statius Faustus" width="150">
+  `)
+  .openPopup();
