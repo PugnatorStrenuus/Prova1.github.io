@@ -18,6 +18,7 @@ p {
 }
 
 html, body {
+    font-family: 'Segoe UI Symbol', serif;
     height: 100%;
     margin: 0;
 }
