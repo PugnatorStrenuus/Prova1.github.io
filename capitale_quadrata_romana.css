@@ -65,14 +65,14 @@ a {
 }
 
 table {
-  width: 100%; /* Imposta la larghezza della tabella al 100% del contenitore */
-  height: 100%; /* Imposta l'altezza della tabella */
-  border-collapse: collapse; /* Opzionale, per evitare spazi tra le celle */
+  width: 100%;
+  height: 100%;
+  border-collapse: collapse;
 }
 
 td {
-  text-align: center; /* Centra il testo orizzontalmente */
-  vertical-align: middle; /* Centra il testo verticalmente */
-  height: 100px; /* Imposta un'altezza per la cella, se necessario */
+  text-align: center;
+  vertical-align: middle;
+  height: 100px;
 }
 
