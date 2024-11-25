@@ -5,9 +5,15 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 }).addTo(map);
 
 L.marker([45.4323, 12.3296]).addTo(map)
-  .bindPopup('Cnaeus Numerius Fronto')
+  .bindPopup('
+             <b>Cnaeus Numerius Fronto</b>
+            <br><img src=".images/Fronto_Inscription" alt="Immagine" width="150"></br>
+  ')
   .openPopup();
 
 L.marker([45.4375, 12.3401]).addTo(map)
-  .bindPopup('Lucius Statius Faustus')
+  .bindPopup('
+             <b>Lucius Statius Faustus</b>
+            <br><img src=".images/Faustus_Inscription" alt="Immagine" width="150"></br>
+  ')
   .openPopup();
