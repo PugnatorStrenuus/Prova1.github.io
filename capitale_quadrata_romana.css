@@ -42,8 +42,8 @@ a {
 }
 
 #map {
-  height: 500px; /* Altezza della mappa */
-  width: 100%;   /* Larghezza della mappa */
-  margin: 0 auto; /* Centrare la mappa */
-  border: 1px solid #ccc; /* Aggiunge un bordo sottile */
+  height: 500px;
+  width: 100%;
+  margin: 0 auto;
+  border: 1px solid #ccc;
 }
