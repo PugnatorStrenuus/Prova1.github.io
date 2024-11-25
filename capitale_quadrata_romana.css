@@ -97,27 +97,21 @@ a {
     border-collapse: collapse;
 }
 
-.table-section th,
-.table-section td {
-    text-align: centre;
-    padding: 10px;
-    border: 1px solid #ddd;
-}
-
 .table-section th {
+    text-align: center;
+    padding: 10px;
     color: #00274d;
     background-color: #bcd4e6;
-
 }
 
-.table-section tr:nth-child(even) {
+.table-section tr:nth-child(even) td {
     color: #e27d60;
     background-color: #5a3d31;
 }
 
-.table-section tr:nth-child(odd) {
-color: #00274d;
-background-color: #bcd4e6;
+.table-section tr:nth-child(odd) td {
+    color: #00274d;
+    background-color: #bcd4e6;
 }
 
 .section .table-section th,
