@@ -115,6 +115,11 @@ a {
     background-color: #5a3d31;
 }
 
+.table-section tr:nth-child(odd) {
+color: #00274d;
+background-color: #bcd4e6;
+}
+
 .section .table-section th,
 .section .table-section td {
     color: #FFFFFF;
