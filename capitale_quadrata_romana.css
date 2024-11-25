@@ -24,6 +24,7 @@ html, body {
 }
 
 body {
+    cursor: url('./images/tpointer_click.png'), auto;
     display: block;
     min-height: 100vh;
     position: relative;
@@ -62,3 +63,16 @@ a {
     background-color: #FF0000;
     border: 10px solid #FFFFFF;
 }
+
+table {
+  width: 100%; /* Imposta la larghezza della tabella al 100% del contenitore */
+  height: 100%; /* Imposta l'altezza della tabella */
+  border-collapse: collapse; /* Opzionale, per evitare spazi tra le celle */
+}
+
+td {
+  text-align: center; /* Centra il testo orizzontalmente */
+  vertical-align: middle; /* Centra il testo verticalmente */
+  height: 100px; /* Imposta un'altezza per la cella, se necessario */
+}
+
