@@ -49,6 +49,7 @@ a {
     margin: 20px auto;
     border-radius: 8px;
     overflow: hidden;
+}
 
 #map {
     flex: 1;
@@ -64,7 +65,8 @@ a {
     border-radius: 8px;
     color: #FFFFFF;
     background-color: #000000;
-
+}
+    
 .row {
     display: flex;
     flex-wrap: wrap;
