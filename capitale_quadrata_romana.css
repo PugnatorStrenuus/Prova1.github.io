@@ -103,22 +103,22 @@ a {
     border: 1px solid #ddd;
 }
 
-/* Intestazioni della tabella */
+
 .table-section th {
     text-align: center;
     padding: 10px;
-    background-color: #bcd4e6; /* Blu polvere */
-    color: #00274d; /* Blu navy */
+    background-color: #bcd4e6;
+    color: #00274d;
 }
 
-/* Righe pari */
+
 .table-section tr:nth-child(even) td {
-    background-color: #5a3d31; /* Marrone caldo */
-    color: #e27d60; /* Rosso terracotta */
+    background-color: #5a3d31;
+    color: #e27d60;
 }
 
-/* Righe dispari */
+
 .table-section tr:nth-child(odd) td {
-    background-color: #bcd4e6; /* Blu polvere */
-    color: #00274d; /* Blu navy */
+    background-color: #bcd4e6;
+    color: #00274d;
 }
