@@ -118,3 +118,20 @@ a {
     background-color: #bcd4e6; /* Blu polvere */
     color: #00274d; /* Blu navy */
 }
+
+.cotainer2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.left {
+    flex: 1;
+}
+
+.right {
+    display: flex;
+    display-direction: column;
+    gap: 10px;
+    
+}
