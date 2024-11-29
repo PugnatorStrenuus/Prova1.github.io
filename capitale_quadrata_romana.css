@@ -113,10 +113,9 @@ a {
     color: #e27d60;
 }
 
-/* Righe dispari */
 .table-section tr:nth-child(odd) td {
-    background-color: #bcd4e6; /* Blu polvere */
-    color: #00274d; /* Blu navy */
+    background-color: #bcd4e6;
+    color: #00274d;
 }
 
 .cotainer2 {
