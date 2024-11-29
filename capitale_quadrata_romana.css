@@ -132,6 +132,11 @@ a {
 .right {
     display: flex;
     display-direction: column;
-    gap: 10px;
+    flex: 1;
     
 }
+
+.top, .bottom {
+    flex: 1;
+    padding: 10px;
+]
