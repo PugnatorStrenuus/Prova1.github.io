@@ -118,7 +118,7 @@ a {
     color: #00274d;
 }
 
-.cotainer2 {
+.container2 {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -138,4 +138,4 @@ a {
 .top, .bottom {
     flex: 1;
     padding: 10px;
-]
+}
