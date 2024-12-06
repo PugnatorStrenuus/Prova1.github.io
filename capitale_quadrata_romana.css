@@ -119,26 +119,16 @@ a {
 }
 
 .containerp {
-  display: flex;
-  justify-content: space-between; /* Per separare la parte sinistra e destra */
+    display: flex;
+    justify-content: space-between;
 }
 
 .left {
-  flex: 1; /* Occupa lo spazio disponibile a sinistra */
-  background-color: lightblue;
+    flex: 1;
+    background-color: lightblue;
 }
 
 .right {
-  display: flex;
-  flex-direction: column; /* Dispone gli elementi in colonna */
-  flex: 1; /* La parte destra occuperà lo spazio rimanente */
-}
-
-.top, .bottom {
-  padding: 10px;
-  background-color: lightgreen;
-}
-
-.top {
-  margin-bottom: 10px; /* Spazio tra gli elementi in alto e in basso */
+    flex: 1;
+    background-color: lightblue;
 }
