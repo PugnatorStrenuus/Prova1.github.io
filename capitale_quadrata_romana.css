@@ -118,10 +118,9 @@ a {
     color: #00274d;
 }
 
-.container2 {
+.containerp {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
 }
 
 .left {
@@ -136,6 +135,5 @@ a {
 }
 
 .top, .bottom {
-    flex: 1;
     padding: 10px;
 }
