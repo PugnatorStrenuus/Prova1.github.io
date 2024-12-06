@@ -120,6 +120,7 @@ a {
 
 .containerp {
     display: flex;
+    text-direction: row;
     justify-content: space-between;
 }
 
