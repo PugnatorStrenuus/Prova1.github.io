@@ -118,7 +118,7 @@ a {
     color: #00274d;
 }
 
-
+    
 .sectionp {
     display: flex;
     flex-wrap: nowrap;
@@ -127,14 +127,35 @@ a {
     padding: 20px;
     border-radius: 8px;
     overflow: hidden;
-    color: #FFFFFF;
     background-color: #000000;
+    color: #FFFFFF;
 }
 
 .left, 
 .right {
     flex: 1;
+    box-sizing: border-box;
     padding: 20px;
-    box-sizing: border-box; 
 }
 
+.right img {
+    max-width: 100%;
+    height: auto;
+}
+
+.right table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.right table th, 
+.right table td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #FFFFFF;
+}
+
+.right table thead tr {
+    background-color: #333333;    /* Sfondo della riga di intestazione */
+    color: #FFFFFF;                /* Testo bianco */
+}
